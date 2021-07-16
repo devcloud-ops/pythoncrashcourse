@@ -1,2 +1,3 @@
 # This program prints hello world to the console.
-print("Hello Python world!");
+message="This is a comment inside a variable"
+print(message);
