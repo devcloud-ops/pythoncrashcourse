@@ -23,3 +23,11 @@ print("\tFaisal")
 print("Faisal is becoming a superhero in programming \n But he is impatient to learn things quickly... \n It will take time my friend.")
 print("that new line \nchange worked!")
 print("that new line \nchange worked! \n hello world!")
+
+#stripping whitespaces
+fav_lang = ' python '
+print(fav_lang)
+fixed=fav_lang.rstrip()
+print(f"{fav_lang.rstrip()}-nowhitespacebeforedash")
+print(f"{fixed}-nowhitespacebeforedash")
+print(f"{fav_lang.lstrip()}-nowhitespacebeforepython")
