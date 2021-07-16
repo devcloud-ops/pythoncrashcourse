@@ -4,3 +4,6 @@ print(message);
 
 message="This is a second message with the same variable name."
 print(message)
+
+message="This is a third message"
+print(message)
