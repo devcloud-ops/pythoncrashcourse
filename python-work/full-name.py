@@ -9,3 +9,8 @@ print(full_name.casefold())
 #print(full_name.center())
 print(full_name.count('e'))
 print(full_name.find('a'))
+print(f"Hello, {full_name.title()}!")
+
+#old formation
+full_name2 = "{} {}".format(first_name, last_name)
+print(full_name2)
