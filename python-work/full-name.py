@@ -32,3 +32,4 @@ print(f"{fav_lang.rstrip()}-nowhitespacebeforedash")
 print(f"{fixed}-nowhitespacebeforedash")
 print(f"{fav_lang.lstrip()}-nowhitespacebeforepython")
 print(f"{fav_lang.strip()}-noleadingortrailingspaces")
+
