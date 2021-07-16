@@ -14,3 +14,7 @@ print(f"Hello, {full_name.title()}!")
 #old formation
 full_name2 = "{} {}".format(first_name, last_name)
 print(full_name2)
+
+#using tab whitespace
+print("Faisal \t Siddiqui")
+print("\tFaisal")
