@@ -13,3 +13,10 @@ print(message_1)
 
 _message5="This is the fifth message"
 print(_message5)
+
+
+string1='I told my friend, "Python is my favorite language!"'
+string2="The language 'Python' is named after Monty Python, not the snake."
+string3="One of Python's strengths is its diverse and supportive community."
+
+print(string1, string2, string3)
