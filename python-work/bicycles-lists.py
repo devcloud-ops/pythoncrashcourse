@@ -11,4 +11,10 @@ print(bicycles[2], bicycles[3])
 print(bicycles[0].title())
 print(bicycles[1].capitalize())
 print(bicycles[2].count('e'))
+print(bicycles[3].upper())
 
+# below also returns last element in the list.
+print(bicycles[-1].upper())
+
+# below also returns second last element in the list.
+print(bicycles[-2].upper())
