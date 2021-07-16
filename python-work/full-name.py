@@ -18,3 +18,6 @@ print(full_name2)
 #using tab whitespace
 print("Faisal \t Siddiqui")
 print("\tFaisal")
+
+#using newline
+print("Faisal is becoming a superhero in programming \n But he is impatient to learn things quickly... \n It will take time my friend.")
