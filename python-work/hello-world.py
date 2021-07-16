@@ -22,6 +22,9 @@ string3="One of Python's strengths is its diverse and supportive community."
 print(string1, string2, string3)
 
 
-name = 'faisal siddiqui'
+name = 'faiSaL siddiqui'
 print(name.title())
+print(name.upper())
+print(name.lower())
+
 
