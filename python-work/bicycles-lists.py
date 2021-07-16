@@ -18,3 +18,9 @@ print(bicycles[-1].upper())
 
 # below also returns second last element in the list.
 print(bicycles[-2].upper())
+
+# Using f-string manipulation while retrieving the list item and applying string operation 'title' to it
+message = f"My first bicycle was a {bicycles[0].title()}"
+print(message)
+
+
