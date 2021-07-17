@@ -31,3 +31,8 @@ print(players[-3:])
 cubes = [1, 8, 27, 64, 125, 216, 343, 512, 729, 1000]
 print(cubes[1:6:2])
 # Output: [8, 64, 216]
+
+# Looping through a slice of players list
+print("Here are the first three players on my team:")
+for player in players[:3]:
+    print(player.title())
