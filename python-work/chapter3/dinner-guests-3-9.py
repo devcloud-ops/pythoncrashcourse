@@ -7,3 +7,6 @@ guest_list.append ('john')
 
 print(f'\nI have invitied {len(guest_list)} guests for dinner including {guest_list}\n')
 #output: I have invitied 3 guests for dinner including ['alex', 'paul', 'john']
+
+# Testing index error
+print(guest_list[4])
