@@ -6,5 +6,8 @@
 numbers = list(range(1,11))
 for value in numbers:
     print(f'\nCube of {value} is {value**3}')
+
+
+# 4-9. Cube Comprehension: Use a list comprehension to generate a list of the first 10 cubes.
 print('\nBelow is a list of cubes from 1 to 10 in list format generated using List Comprehensions:')
 print([value**3 for value in range(1,11)])
