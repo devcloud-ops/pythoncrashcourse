@@ -72,4 +72,27 @@ sorted(alphabets, reverse=True)#The changes to the alphabets list is valid and a
 print(f'During sorting the alphabets temporarily in reverse alphabetical order: {sorted(alphabets, reverse=True)}')
 print(f'After sorting the alphabets in reverse alphabetical order: {alphabets}\n')
 
+############################################################################################
 
+print ('\n\n--------------------------------------------------------------------------\n\n')
+
+############################################################################################
+
+# Printing the list in reverse order
+cars = ['bmw', 'audi', 'toyota', 'subaru']
+print(f'\nBefore reversing the cars list order: {cars}')
+
+cars.reverse()
+print(f'After reversing the cars list order: {cars}')
+
+cars.reverse()
+print(f'Reverting back to the original order of the list: {cars}\n')
+
+alphabets=['c','e','d','a','z','b','y']
+print(f'\nBefore reversing the alphabets list order: {alphabets}')
+
+alphabets.reverse()
+print(f'After reversing the alphabets list order: {alphabets}')
+
+alphabets.reverse()
+print(f'Reverting back to the original order of the list: {alphabets}:\n')
