@@ -35,6 +35,8 @@ print(f'Hey {guest_list[1].title()}, you are cordially invited to my place for d
 print(f'Hey {guest_list[2].title()}, you are cordially invited to my place for dinner on 3-3-3033.\n')
 #output: Hey John, you are cordially invited to my place for dinner on 3-3-3033.
 
+################################ 3-6 #############################################
+
 print('Dear All, please be informed that I have found a bigger dinner table, and so I will be inviting 3 more friends to this dinner. \n')
 #output: Dear All, please be informed that I have found a bigger dinner table, and so I will be inviting 3 more friends to this dinner.
 
@@ -62,6 +64,8 @@ print(f'Hey {guest_list[4].title()}, you are cordially invited to my place for d
 
 print(f'Hey {guest_list[5].title()}, you are cordially invited to my place for dinner on 3-3-3033.\n')
 #output: Hey John, you are cordially invited to my place for dinner on 3-3-3033.
+
+################################ 3-7 #############################################
 
 print(f'\nDear All, change of plans; my dinner table won\'t be arriving in due time, so I can invite only two people to this dinner now.\n')
 #output: Dear All, change of plans; my dinner table won\'t be arriving in due time, so I can invite only two people to this dinner now
