@@ -18,7 +18,7 @@ if (alien_color == 'green'):
     statement = ' '.join(("\nCongratulations, you just shot down a green", 
                           f"alien and earned {points_earned} points!"))
     print(statement)
-elif (alien_color != 'green'):
+else:
     points_earned = 10
     statement = ' '.join(("\nCongratulations, you just shot down a non-green", 
                           f"alien and earned {points_earned} points!"))
