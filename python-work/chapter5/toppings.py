@@ -8,6 +8,9 @@ requested_toppings = []
 
 # if 'mushrooms' in requested_topping:
 #     print('great job, proceed with the order!')
+
+# When the name of a list is used in an if statement, Python returns True if 
+# the list contains at least one item; an empty list evaluates to False.
     
 if requested_toppings:  # This condition checks if requested_toppings isn't 
                         # empty
