@@ -14,14 +14,29 @@ age = 67
 #     print('\nYour admission cost is $40.')
 
 
-# Approach 2: More appropriate
+# Approach 2: More appropriate - with price variable
+# if age < 4:
+#     price = 0 # babies are exempted
+# elif age < 18:
+#     price = 25 # children and teen
+# elif age < 65:
+#     price = 40 # adult
+# else:
+#     price = 20 # seniors discount
+#     print('\nSeniors discount applied!')
+
+# print(f'\nYour admission cost is ${price}.')
+
+
+
+# Approach 3: Excluding the else block completely
 if age < 4:
     price = 0 # babies are exempted
 elif age < 18:
     price = 25 # children and teen
 elif age < 65:
     price = 40 # adult
-else:
+elif age >= 65:
     price = 20 # seniors discount
     print('\nSeniors discount applied!')
 
