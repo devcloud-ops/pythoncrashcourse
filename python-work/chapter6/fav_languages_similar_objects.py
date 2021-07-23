@@ -5,10 +5,19 @@ favorite_languages = {
     'jen': 'python',
     'sarah': 'c',
     'edward': 'ruby',
-    'phil': 'python',
+    'phil': 'java',
     }
 
 print(favorite_languages)
 
-language = favorite_languages['sarah'].title()
-print(f"Sarah's favorite language is {language}.")
+jen_fav = favorite_languages['jen'].title()
+sarah_fav = favorite_languages['sarah'].title()
+edward_fav = favorite_languages['edward'].title()
+phil_fav = favorite_languages['phil'].title()
+
+print(f"Jen's favorite language is {jen_fav}.")
+print(f"Sarah's favorite language is {sarah_fav}.")
+print(f"Edwards's favorite language is {edward_fav}.")
+print(f"Phil's favorite language is {phil_fav}.")
+
+
