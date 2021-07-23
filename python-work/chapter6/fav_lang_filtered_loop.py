@@ -8,8 +8,11 @@ favorite_languages = {
 
 friends = ['jen','phil']
 
+if 'erin' not in favorite_languages.keys():
+        print("Erin, you haven't participated in the poll, please do so!\n")
+
 for name in favorite_languages.keys():
-    print(name.title())
+    print(f'Hi {name.title()}.')
     if name in friends:
         language = favorite_languages[name].title()
         print(f'\t {name.title()}, I see you love {language}!')
