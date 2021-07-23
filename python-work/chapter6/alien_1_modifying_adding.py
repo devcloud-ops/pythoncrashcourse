@@ -27,9 +27,9 @@ print(f"Original position: {alien_1['x_position']}")
 
 # Move the alien to the right.
 # Determine how far to move the alien based on its current speed.
-if alien_1['speed'] == 'slow':
+if (alien_1['speed'] == 'slow'):
     x_increment = 1
-elif alien_1['speed'] == 'medium':
+elif (alien_1['speed'] == 'medium'):
     x_increment = 2
 else:
     # this must be a fallen alien
