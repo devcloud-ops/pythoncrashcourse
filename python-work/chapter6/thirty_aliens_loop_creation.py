@@ -19,6 +19,10 @@ for alien in aliens[:3]:
         alien['color'] = 'yellow'
         alien['speed'] = 'medium'
         alien['points'] = 10
+    elif alien['color'] == 'yellow':
+        alien['color'] = 'red'
+        alien['speed'] = 'fast'
+        alien['points'] = 15
 
 print("...")
 print("After change...")
@@ -26,3 +30,19 @@ print("After change...")
 
 for alien in aliens[:5]:
     print(alien)
+
+# Output:
+# Total number of aliens created: 30
+# Before change...
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
+# ...
+# After change...
+# {'color': 'yellow', 'points': 10, 'speed': 'medium'}
+# {'color': 'yellow', 'points': 10, 'speed': 'medium'}
+# {'color': 'yellow', 'points': 10, 'speed': 'medium'}
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
+# {'color': 'green', 'points': 5, 'speed': 'slow'}
