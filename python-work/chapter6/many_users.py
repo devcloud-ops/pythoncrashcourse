@@ -32,15 +32,15 @@ users = {
 
 for username, users_info in users.items():
     print(f'\nUsername: {username}')
-    print(f"Full Name: {users_info['first'].title()} {users_info['last'].title()}")
-    print(f"User's Current Location: {users_info['location'].title()}")
+    print(f"\tFull Name: {users_info['first'].title()} {users_info['last'].title()}")
+    print(f"\tUser's Current Location: {users_info['location'].title()}")
 
 # Output:
 
 # Username: aeinstein
-# Full Name: Albert Einstein
-# User's Current Location: Princeton
+#   Full Name: Albert Einstein
+#   User's Current Location: Princeton
 
 # Username: mcurie
-# Full Name: Marie Curie
-# User's Current Location: Paris
+#   Full Name: Marie Curie
+#   User's Current Location: Paris
