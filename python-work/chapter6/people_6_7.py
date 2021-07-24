@@ -4,6 +4,7 @@
 # you loop through the list, print everything you know about each person.
 
 berryc = {
+    'username': 'berryc',
     'first_name': 'berry',
     'last_name': 'chen',
     'age': 43,
@@ -12,6 +13,7 @@ berryc = {
 
 # Make two new dictionaries representing different people
 sofiet = {
+    'username': 'sofiet',
     'first_name': 'sofie',
     'last_name': 'tran',
     'age': 42,
@@ -19,6 +21,7 @@ sofiet = {
 }
 
 johnc = {
+    'username': 'johnc',
     'first_name': 'john',
     'last_name': 'carter',
     'age': 45,
@@ -32,7 +35,7 @@ people = [berryc, sofiet, johnc]
 # everything you know about each person
 
 for person in people:
-    print(f"\nDetails of this person are:")
+    print("\nDetails of this person are:")
     for pii,data in person.items():
         if type(data) == str:
             print(f"\t{pii.title()} is {data.title()}")
