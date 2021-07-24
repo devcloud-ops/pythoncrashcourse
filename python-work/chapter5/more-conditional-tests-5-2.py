@@ -12,7 +12,7 @@
 
 
 
-# • Tests for equality and inequality with strings
+# # • Tests for equality and inequality with strings
 name = 'jace'
 print(f'\nString Equality Test: Is the string same as \'jace\'?')
 print(name == 'jace')
