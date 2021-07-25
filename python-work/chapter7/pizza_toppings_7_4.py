@@ -10,6 +10,7 @@ toppings = []
 
 while topping != 'finish':
     topping = input(prompt)
-    toppings.append(topping)
+    if topping != 'finish':
+        toppings.append(topping)
 
 print(f"\nI will add these toppings to your pizza: {toppings}")
