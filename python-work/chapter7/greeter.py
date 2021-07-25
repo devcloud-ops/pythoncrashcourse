@@ -6,3 +6,4 @@ prompt += "\nWhat is your first name? "
 
 name = input(prompt)
 print(f"\nNice job, {name.title()}! You are learning Python at good pace!")
+
