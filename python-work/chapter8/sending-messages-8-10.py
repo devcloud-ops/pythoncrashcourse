@@ -29,7 +29,7 @@ def print_messages(lists):
 
 # prints each text message and moves each message to a new list called 
 # sent_messages
-show_messages(txt_msgs[:],sent_msgs)
+show_messages(txt_msgs,sent_msgs)
 
 
 # print both of your lists to make sure the messages were moved correctly
