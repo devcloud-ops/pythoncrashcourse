@@ -2,6 +2,7 @@
 def get_formatted_name(first_name, last_name, middle_name=''):
     """Return a full name, neatly formatted, middle_name is optional."""
     if middle_name: # This condition ensures that middle_name isn't empty
+                    # Python interprets non-empty strings as True
         full_name = f"{first_name} {middle_name} {last_name}"
     else:
         full_name = f"{first_name} {last_name}"
