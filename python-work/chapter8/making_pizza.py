@@ -1,4 +1,5 @@
-import pizza_module
+# import pizza_module as p
+from pizza_module import *
 
-pizza_module.make_pizza(16, 'pepperoni')
-pizza_module.make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
+make_pizza(16, 'pepperoni')
+make_pizza(12, 'mushrooms', 'green peppers', 'extra cheese')
