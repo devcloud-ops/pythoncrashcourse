@@ -12,4 +12,4 @@ def get_formatted_name(first_name, last_name, middle_name=''):
 musician = get_formatted_name('jiMi', 'hEnDrix')
 print(musician)
 
-print(get_formatted_name('muhammad','faiSal','siDDiqui'))
+print(get_formatted_name('muhammad',middle_name='faiSal',last_name='siDDiqui'))
