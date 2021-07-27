@@ -13,6 +13,7 @@ class Resturant:
         """Initialize resturant name and its cuisine type"""
         self.restaurant_name = restaurant_name
         self.cuisine_type = cuisine_type
+        self.number_served = 0
 
     def describe_resturant(self):
         """Displays resturant's name and cuisine type"""
@@ -20,6 +21,14 @@ class Resturant:
         print(f"{self.restaurant_name.title()} is a "
               f"{self.cuisine_type.title()} resturant.")
         
+    def set_number_served(self,new_number):
+        """Set the number of customers served by this resturant."""
+        self.number_served = new_number
+    
+    def increment_number_served(self,updated_number):
+        """Increments the number of customers served by this resturant."""
+        self.number_served += updated_number
+    
     def open_restaurant(self):
         """Informs users that the resturant is open"""
         print(f"{self.restaurant_name.title()} is open right now!")
