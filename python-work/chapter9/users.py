@@ -14,6 +14,7 @@ class User:
         self.first_name = first_name
         self.last_name = last_name
         self.user_profile = user_profile
+        self.login_attempts = 0
 
     def describe_user(self):
         """Prints a summary of the user profile attributes."""
@@ -21,7 +22,15 @@ class User:
               f"{self.last_name.title()}. Other user profile data includes: ")
         for k,v in self.user_profile.items():
             print("\t{} is {}".format(k.title(),v.title()))
-    
+
+    def increment_login_attempts(self):
+        """Increments the value of login attempts by 1"""
+        self.login_attempts += 1
+
+    def reset_login_attempts(self):
+        """Resets the value of login attempts to 0"""
+        self.login_attempts = 0
+
     def greet_user(self):
         """Greets a new user."""
         print(f"\nWelcome {self.first_name.title()} {self.last_name.title()}"
