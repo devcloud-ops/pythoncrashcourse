@@ -20,3 +20,6 @@ my_new_car.increment_odometer(30)
 
 my_new_car.read_odometer()
 # Output: This car has traveled 0 miles.
+
+my_new_car.fill_gas_tank(30)
+print(f"Gas tank has been filed with {my_new_car.liters} liters.")
