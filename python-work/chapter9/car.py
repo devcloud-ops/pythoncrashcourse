@@ -31,3 +31,10 @@ class Car:
     def read_odometer(self):
         """Displays car's mileage."""
         print(f"This car has traveled {self.odometer_reading} miles.")
+
+class ElectricCar(Car):
+    """Represents aspects of a car, specific to electric cars."""
+    
+    def __init__(self,make,model,year):
+        """Initialize attributes of the parent class"""
+        super().__init__(make,model,year)
