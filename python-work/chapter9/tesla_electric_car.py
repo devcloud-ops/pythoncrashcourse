@@ -9,3 +9,5 @@ tesla1.describe_battery()
 
 tesla1.fill_gas_tank()
 # Output: This car doesn't need a gas tank!
+
+tesla1.battery.describe_battery()
