@@ -12,3 +12,6 @@ tesla1.fill_gas_tank()
 
 tesla1.battery.describe_battery()
 # Output: This car has a 75-kWh battery.
+
+tesla1.battery.get_range()
+# Output: This car can go about 260 miles on a full charge!
