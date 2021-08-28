@@ -32,3 +32,21 @@ class Resturant:
     def open_restaurant(self):
         """Informs users that the resturant is open"""
         print(f"{self.restaurant_name.title()} is open right now!")
+
+class IceCreamStand(Resturant):
+    """Ice cream stand as a specific kind of restaurant"""
+    
+    def __init__(self,restaurant_name, cuisine_type, *flavors):
+        """Initializes attributes of this IceCreamStand"""
+        super().__init__(restaurant_name, cuisine_type)
+        # Initializes an additional list called flavors
+        self.flavors = flavors
+    
+    def describe_resturant(self):
+        """Displays resturant's name, cuisine type, and flavors"""
+        super().describe_resturant()
+        print(f"This Ice Cream Stand offers these flavors:")
+        for flavor in self.flavors:
+            print(f"\t{flavor}")
+            
+    
